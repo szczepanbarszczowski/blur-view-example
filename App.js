@@ -25,7 +25,7 @@ const BluredWidget = ({}) => {
           {/* Transparent bg needed for android to fix weird children positioning issue*/}
           <View style={s.blurViewInnerWrapper}>
             <Text style={s.availableBalanceText}>Available balance</Text>
-            <Text style={s.availableBalanceAmmount}>26.2654125 ELCASH</Text>
+            <Text style={s.availableBalanceAmmount}>26.2654125 CASH</Text>
           </View>
         </BlurView>
       </LinearGradient>
